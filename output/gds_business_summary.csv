@@ -1,0 +1,2 @@
+total_actual_sales,total_forecast_sales,forecast_accuracy,best_model,worst_model,forecast_period_days,average_daily_sales,peak_sales_day,lowest_sales_day
+69850838.415438,69253781.51978694,92.9%,ARIMA,Prophet,90,776120.4268382,2017-05-01,2017-06-22

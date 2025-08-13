@@ -1,0 +1,37 @@
+
+# Google Data Studio Setup Guide - Sales Forecasting Dashboard
+
+## Data Sources Required:
+1. gds_main_forecasting.csv - Main forecast comparisons
+2. gds_model_performance.csv - Model accuracy metrics  
+3. gds_historical_analysis.csv - Historical trends and patterns
+4. gds_seasonal_insights.csv - Seasonal business patterns
+5. gds_weekly_accuracy.csv - Accuracy by time period
+6. gds_future_forecasts.csv - Next 30 days projections
+7. gds_business_summary.csv - Executive KPI summary
+
+## Recommended Dashboard Pages:
+
+### Page 1: Executive Summary
+- KPI cards: Total Sales, Forecast Accuracy, Best Model, Future Revenue
+- Line chart: Actual vs Predicted (last 90 days)
+- Bar chart: Model performance comparison
+- Gauge chart: Overall forecast accuracy
+
+### Page 2: Forecast Analysis  
+- Time series: Multiple model comparisons
+- Scatter plot: Actual vs Predicted values
+- Error analysis: Daily error rates
+- Model selection: Interactive model comparison
+
+### Page 3: Business Intelligence
+- Seasonal heatmap: Monthly patterns
+- Trend analysis: Year-over-year growth
+- Future projections: Next 30 days forecast
+- Business insights: Peak/low periods identification
+
+## Key Metrics to Highlight:
+- ARIMA Model: 7.06% MAPE (Best Performance)
+- Linear Regression: 7.52% MAPE  
+- Average Daily Sales: $637K
+- Forecast Period: 90 days (Apr-Aug 2017)
